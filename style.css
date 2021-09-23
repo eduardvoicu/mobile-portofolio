@@ -1,12 +1,12 @@
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #e4e2e2;
+    color: #bebebe;
   }
   
   /* Carousel base class */
 .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
@@ -42,9 +42,12 @@ body {
   }
   /* Featurettes
 ------------------------- */
+.row-featurette{
+    margin-top: 1.5rem;
 
+}
 .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 7rem 0; /* Space out the Bootstrap <hr> more */
   }
   
   /* Thin out the marketing headings */
