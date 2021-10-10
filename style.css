@@ -205,4 +205,47 @@ html {
     background-size: contain;
     position: relative;
   }
+
+  .main-message {
+    width: 100%;
+    max-width: 58rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .main-message h2 {
+    letter-spacing: 1.2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite;
+    width: 27ch;
+    margin: auto;
+    border-right: 4px solid rgba(255, 255, 255, 1);
+  }
+  
+  @keyframes typing {
+    75% {
+      width: 0ch;
+      color: rgba(249, 105, 14, 1);
+    }
+    100% {
+      width: 27ch;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      border-right: 4px solid rgba(255, 255, 255, 0);
+    }
+    100% {
+      border-right: 4px solid rgb(194, 194, 194);
+    }
+  }
+  
   
