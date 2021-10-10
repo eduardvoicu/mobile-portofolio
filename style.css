@@ -72,3 +72,37 @@ html {
     padding: 1rem 0;
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
   }
+
+  .line1 {
+    width: 15px;
+    height: 3px;
+    margin: 5px 0;
+    background: linear-gradient(
+      135deg,
+      rgba(249, 105, 14, 1) 0%,
+      rgb(255, 255, 255) 100%
+    );
+  }
+  
+  .line2 {
+    width: 30px;
+    height: 3px;
+    background: linear-gradient(
+      135deg,
+      rgba(249, 105, 14, 1) 0%,
+      rgb(255, 255, 255) 100%
+    );
+  }
+  
+  .line3 {
+    width: 15px;
+    height: 3px;
+    margin: 5px 0;
+    margin-left: 15px;
+    background: linear-gradient(
+      135deg,
+      rgba(249, 105, 14, 1) 0%,
+      rgb(255, 255, 255) 100%
+    );
+  }
+  
