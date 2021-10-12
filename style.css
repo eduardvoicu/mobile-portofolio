@@ -441,3 +441,26 @@ html {
   .project-description {
     flex: 1;
   }
+
+  .project-description h2 {
+    font-size: 2rem;
+    margin: 2rem 0;
+    background: linear-gradient(
+      to right,
+      rgba(249, 105, 14, 1) 0%,
+      rgba(102, 51, 153, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .project-description p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin: 2rem 0;
+    font-size: 1.4rem;
+  }
