@@ -574,3 +574,22 @@ footer {
       border-radius: 0.9rem;
       padding: 0.9rem 0.9rem;
     }
+
+    .about-text-box h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+      }
+      .about-text-box p {
+        margin: 0 0 2.45rem;
+      }
+    
+      .title-heading h2 {
+        margin-bottom: 2rem;
+      }
+      .title-heading p {
+        font-size: 1.3rem;
+      }
+    
+      .contact .container {
+        flex-direction: column;
+      }
