@@ -2,9 +2,9 @@
 
 ## Directory
 
-1. ![Links](#links)
-2. ![Screenshots](#screenshots)
-3. ![User Story](#user_story)
+1. [Links](#links)
+2. [Screenshots](#screenshots)
+3. [User Story](#user_story)
 
 ## Links
 
@@ -20,4 +20,5 @@ https://eduardvoicu.github.io/mobile-portofolio/
 AS a Full-Stack DEVELOPER
 I WANT future employers to see my most current work,
 AND FIND a way to contact me.
+
 ```
